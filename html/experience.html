@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <header>
+        <div class="navigation-bar">
+            <div class="pages">
+                <a class="logo" href="#">TMAK</a>
+                
+                <img id="mobmenu" class="mobile-menu" src="../images/hbmenu.png" alt="hamburger menu">
+                
+                <nav>
+                    <img id="exitmenu" class="exit-menu" src="../images/exit.png" alt="exit option">
+                    <ul class="navigation">
+                            <li><a href="../main.html">Home</a></li>
+                            <li ><a href="about.html">About</a></li>
+                            <li><a href="skills.html">skills</a></li>
+                            <li class="current"><a href="experience.html">Life Experience</a></li>
+                            <li ><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </nav> 
+            </div>
+        </div>
+<script>
+    const mobilBtn= document.getElementById('mobmenu')
+    nav=document.querySelector('nav');
+    mobileBtnExit= document.getElementById('exitmenu'); 
+    mobilBtn.addEventListener('click',() =>{
+        nav.classList.add('menu-btn');
+    })
+    mobileBtnExit.addEventListener('click', () =>{
+        nav.classList.remove('menu-btn')
+    })
+</script>
+</header>
+
+<h2>Life Experience</h2>
+<div class="experience">
+    <div class="fam-exp">
+        <a href="family.html"><h2>Family</h2>
+        <img class="gallery" src="../images/6.jpg" alt="family picture">
+        </a>
+    </div>
+      <div class="fri-exp">
+          <a href="friends.html">
+              <h2>Friends</h2>
+        <img class="gallery" src="../images/30.jpg" alt="friends picture">
+        </a>
+    </div>
+    <div class="spe-exp">
+        <a href="special.html">
+            <h2>Special</h2>
+        <img class="gallery" src="../images/15.jpg" alt="special pictures">
+        </a>
+    </div>  
+    
+    
+</div>
+<div class="footer">
+    <div class="lfooter">
+        <h3>Tsedalemariam</h3>
+        <ul>
+            <li>Born and raised in Addis Ababa</li>
+            <li>3rd year Software Engineering student at AAU</li>
+            <li>Can work on Python, Java, HTML, css...</li>
+            <li>Have been to places in Ethiopia...</li>
+            <li>Enjoy reading books, playing instruments, swimming, playing games, traveling, experiencing new things...</li>
+        </ul>
+    </div>  
+    <div class="rfooter">
+        <div class="lrfooter">
+            <h3>Where do you want to go?</h3>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a> 
+                    <ul>
+                    <li><a href="personalinfo.html">Personal information</a></li>
+                    <li><a href="education.html">Educational Background</a></li>
+                </ul> </li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="experience.html">Life Experience</a>
+                <ul>
+                    <li><a href="family.html">Family</a></li>
+                    <li><a href="friends.html">Friends</a></li>
+                    <li><a href="special.html">Specials</a></li>
+                </ul></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div> 
+        <div class="rrfooter">
+            <h3>Get in touch</h3>
+            <a href="mailto: asratet@gmail.com">
+                <img class="icon" src="../images/email.jfif" alt="Email icon">
+            </a> 
+            <a href="https://www.instagram.com/tse_asrate">
+                <img class="icon" src="../images/instagram.png" alt="instagram icon">
+            </a> <br>
+            <a href="https://t.me/Beyon_d">
+                <img class="icon" src="../images/telegram.png" alt="telegram icon">
+            </a> 
+            <a href="tell:+251 984 717 925">
+                <img class="icon" src="../images/phone.jfif" alt="phone icon">
+            </a>
+            
+        </div>
+    </div>
+    
+</div>
+
+    
+</body>
+</html>

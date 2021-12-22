@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tsedalemariam Asrate</title>
+    <link rel="stylesheet" href="../css/main.css">
+    
+</head>
+<body>
+    <header>
+        <div class="navigation-bar">
+            <div class="pages">
+                <a class="logo" href="#">TMAK</a>
+                
+                <img id="mobmenu" class="mobile-menu" src="../images/hbmenu.png" alt="hamburger menu">
+                
+                <nav>
+                    <img id="exitmenu" class="exit-menu" src="../images/exit.png" alt="exit option">
+                    <ul class="navigation">
+                            <li class="current"><a href="../main.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="skills.html">skills</a></li>
+                            <li><a href="experience.html">Life Experience</a></li>
+                            <li ><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </nav> 
+            </div>
+        </div>
+
+        <script>
+            const mobilBtn= document.getElementById('mobmenu')
+            nav=document.querySelector('nav');
+            mobileBtnExit= document.getElementById('exitmenu'); 
+            mobilBtn.addEventListener('click',() =>{
+                nav.classList.add('menu-btn');
+            })
+            mobileBtnExit.addEventListener('click', () =>{
+                nav.classList.remove('menu-btn')
+            })
+        </script>
+
+    </header>
+         
+        <h2>personal Information</h2>
+        <div class="container">
+            <img class="mypic" src="../images/baby.jpg" alt="family pic">
+        <p class="longtext">I was born in Addis Ababa in a public health station around 4 killo. My dad, Asrate kassa and mom Yeshiwork simegn were both, at that time, teachers with low income. I already had 2 elder sisters, Tsigemariam and sebenemariam but only one was staying with us in Addis. I wasn’t a very healthy child. I was almost regularly sick and kept returning my parents to clinics. Watching my elder sister go to school and learn, I was very eager to join so I got into a nursery class at Abunegorgorios School at the age of 3. I learnt there until grade 12. I lived in a lot of neighborhoods while growing up but most of my memorable childhood was at ferensay legasion. We lived there till I was 6th grader then we moved to legetafo. Legetafo, it is where I still live, is where the 2nd half of my childhood resides. My childhood was mostly filled with school, church, a lot of relatives used to stay with that so family time and traveling once in a while. we also used to go out to different recreational places and visit. My dad loved these things. My dad was the actor in my childhood. From talking about anything and everything with us, to dreaming big things and providing a lot of opportunities for us, he played a huge role in getting us to where we are now. It is at that time that I developed most of the skills I have now. Generally, I can confidently say I had an amazing childhood thanks to my dear parents.</p>
+ 
+        </div>
+       
+
+
+    <div class="footer">
+        <div class="lfooter">
+            <h3>Tsedalemariam</h3>
+            <ul>
+                <li>Born and raised in Addis Ababa</li>
+                <li>3rd year Software Engineering student at AAU</li>
+                <li>Can work on Python, Java, HTML, css...</li>
+                <li>Have been to places in Ethiopia...</li>
+                <li>Enjoy reading books, playing instruments, swimming, playing games, traveling, experiencing new things...</li>
+            </ul>
+        </div>  
+        <div class="rfooter">
+            <div class="lrfooter">
+                <h3>Where do you want to go?</h3>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="about.html">About</a> 
+                        <ul>
+                        <li><a href="personalinfo.html">Personal information</a></li>
+                        <li><a href="education.html">Educational Background</a></li>
+                    </ul> </li>
+                    <li><a href="skills.html">skills</a></li>
+                    <li><a href="experience.html">Life Experience</a>
+                    <ul>
+                        <li><a href="family.html">Family</a></li>
+                        <li><a href="friends.html">Friends</a></li>
+                        <li><a href="special.html">Specials</a></li>
+                    </ul></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> 
+            <div class="rrfooter">
+                <h3>Get in touch</h3>
+                <a href="mailto: asratet@gmail.com">
+                    <img class="icon" src="../images/email.jfif" alt="Email icon">
+                </a> 
+                <a href="https://www.instagram.com/tse_asrate">
+                    <img class="icon" src="../images/instagram.png" alt="instagram icon">
+                </a> <br>
+                <a href="https://t.me/Beyon_d">
+                    <img class="icon" src="../images/telegram.png" alt="telegram icon">
+                </a> 
+                <a href="tell:+251 984 717 925">
+                    <img class="icon" src="../images/phone.jfif" alt="phone icon">
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
