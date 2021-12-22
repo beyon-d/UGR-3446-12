@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100&display=swap');
+:root{
+    --common-color: cyan;
+}
+body{
+    background: #f2f2f2;
+    margin: 0;
+    font-family: Rokkitt;
+}
+
+.icon{
+    width: 80px;
+    padding: 0.8em;
+
+}
+.navigation-bar{
+    padding: 1em;
+    background:var(--common-color) ;
+    
+    .logo{
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+        font-size: 2em;  
+    }
+    nav{
+        display: none;
+    }
+    .pages{
+        display: flex;
+        place-content: space-between;
+    }
+    
+    .mobile-menu, .exit-menu{
+        cursor: pointer;
+        width: 2em ;
+    }
+
+    ul{
+        list-style: none;   
+    }
+}
+.footer{
+    background-color: lightcyan;
+    padding: 1em;
+    h3{
+        text-align: center;
+    }
+    .rfooter{
+        display:flex;
+        .rrfooter{
+           text-align: center;
+           width: 70%;
+        }  
+    }
+    a{
+        &:hover{
+            font-weight: bold;
+       }
+    }
+}
+
+ul li a {
+    text-decoration: none;
+    
+}
+ul{
+    list-style-type: none;
+}
+
+.hero{
+    text-align: center;
+    .mypic{
+        width: 300px;
+        margin-top: 1em;
+        border-radius: 5em;
+    }
+    h1{
+        font-size: 2.5em;
+    } 
+}
+.mypic{
+    width: 300px;
+    padding: 20px;
+}
+.certificatev{
+    width: 300px;
+    height: 400px;
+    padding-right: 70px;
+}
+.certificateh{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+}
+table{
+    width: 700px;
+    height: 300px;
+}
+.mainskills{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+nav.menu-btn{
+    display: block;
+}
+nav{
+    position: fixed;
+    z-index: 888;
+    width: 12em;
+    height: 24em;
+    right: 0;
+    top: 0;
+    background: gray;
+    ul{
+        margin-top: 5em;
+    }
+    li{
+        a{
+            color: white;
+            text-decoration: none;
+            padding: .5em;
+            display: block;
+            text-align: right;
+
+            &:hover{
+                 font-weight: bold;
+            }
+        }
+    }
+
+}
+.exit-menu{
+    float: right;
+}
+.contact{
+    padding: 10px;
+}
+.gallery{
+    width: 300px;
+    padding: 1em;
+    }
+    figcaption{
+        margin-left: 4em;
+    }
+
+@media only screen and (min-width:710px){
+    .mobile-menu, .exit-menu{
+        display: none  ;
+    }
+    .navigation-bar .pages{
+        display: grid;
+        grid-template-columns: 180px auto ;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+    }
+    .navigation-bar nav{
+        display: flex;
+        justify-content: space-between;
+        background: none;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0; 
+      
+
+        ul{
+            display: flex;
+            margin: 0;
+        }
+            a{
+                color: black;
+                font-size: 1.2em;
+                padding: .1em 1em;
+                
+            }
+            
+        li.current a{
+            font-weight: bold;
+          
+        }
+    }
+    .first-text{
+        padding-bottom: 70px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        .lfooter {
+            width: 40%;
+        }
+        .rfooter{
+            width: 60%;
+        }
+    }
+    .contactpage{
+        display: flex;
+        justify-content: space-between;
+    }
+    .links{
+        display: flex;
+    }
+
+    .linkss{
+        padding-right: 200px;
+    }
+    .experience{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+    .family, .friends, .special{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fe 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:870px){
+    .container{
+        margin: 0;
+    }
+    .hero{
+        padding: 8em 7em;
+    }
+
+    .hero .container{
+        display: flex;
+        justify-content: space-around;
+    }  
+    .left-container{
+        margin: 4em 3em 0 5em;
+    }
+    h1{
+        font-size: 3em;
+    }
+.longtext{
+    padding-left: 50px;
+}
+}

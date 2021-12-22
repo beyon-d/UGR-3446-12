@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="navigation-bar">
+            <div class="pages">
+                <a class="logo" href="#">TMAK</a>
+                
+                <img id="mobmenu" class="mobile-menu" src="hbmenu.png" alt="hamburger menu">
+                
+                <nav>
+                    <img id="exitmenu" class="exit-menu" src="exit.png" alt="exit option">
+                    <ul class="navigation">
+                            <li><a href="main.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="current" ><a href="skills.html">skills</a></li>
+                            <li><a href="experience.html">Life Experience</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </nav> 
+            </div>
+        </div>
+
+        <script>
+            const mobilBtn= document.getElementById('mobmenu')
+            nav=document.querySelector('nav');
+            mobileBtnExit= document.getElementById('exitmenu'); 
+            mobilBtn.addEventListener('click',() =>{
+                nav.classList.add('menu-btn');
+            })
+            mobileBtnExit.addEventListener('click', () =>{
+                nav.classList.remove('menu-btn')
+            })
+        </script>
+    </header>
+
+    <h2>&nbsp &nbsp &nbsp My skills</h2>
+
+    <div class="mainskills">
+        <table border="30">
+        <tr>
+            <th scope="col">Skills</th>
+            <th scope="col">Aquired from</th>
+        </tr>
+            <td>python</td>
+            <td>AAiT</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>AAiT</td>
+        </tr>
+        <tr>
+            <td>3D modeling</td>
+            <td>Orange Digital Center</td>
+        </tr>
+        <tr>
+            <td>Guitar</td>
+            <td>Aida music school</td>
+        </tr>
+        <tr>
+            <td>Keyboard</td>
+            <td>Aida music school</td>
+        </tr>
+        <tr>
+            <td>Begena</td>
+            <td>Self aquired</td>
+        </tr>
+        
+        </table>
+        <div class="proofs">
+            <img class="certificatev" src="orange.jpg" alt="certificate from ODC"> <br>
+            
+        </div>
+    </div>
+            <img class="certificateh" src="keyboard.jpg" alt="certificate from music school">
+            <img class="certificateh" src="leader.jpg" alt="certificate from training">
+            <img class="certificateh" src="ship.jpg" alt="certificate from training2">
+
+    
+
+    <div class="footer">
+        <div class="lfooter">
+            <h3>Tsedalemariam</h3>
+            <ul>
+                <li>Born and raised in Addis Ababa</li>
+                <li>3rd year Software Engineering student at AAU</li>
+                <li>Can work on Python, Java, HTML, css...</li>
+                <li>Have been to places in Ethiopia...</li>
+                <li>Enjoy reading books, playing instruments, swimming, playing games, traveling, experiencing new things...</li>
+            </ul>
+        </div>  
+        <div class="rfooter">
+            <div class="lrfooter">
+                <h3>Where do you want to go?</h3>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="about.html">About</a> 
+                        <ul>
+                        <li><a href="personalinfo.html">Personal information</a></li>
+                        <li><a href="education.html">Educational Background</a></li>
+                    </ul> </li>
+                    <li><a href="skills.html">skills</a></li>
+                    <li><a href="experience.html">Life Experience</a>
+                    <ul>
+                        <li><a href="family.html">Family</a></li>
+                        <li><a href="friends.html">Friends</a></li>
+                        <li><a href="special.html">Specials</a></li>
+                    </ul></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> 
+            <div class="rrfooter">
+                <h3>Get in touch</h3>
+                <a href="mailto: asratet@gmail.com">
+                    <img class="icon" src="email.jfif" alt="Email icon">
+                </a> 
+                <a href="https://www.instagram.com/tse_asrate">
+                    <img class="icon" src="instagram.png" alt="instagram icon">
+                </a> <br>
+                <a href="https://t.me/Beyon_d">
+                    <img class="icon" src="telegram.png" alt="telegram icon">
+                </a> 
+                <a href="tell:+251 984 717 925">
+                    <img class="icon" src="phone.jfif" alt="phone icon">
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
